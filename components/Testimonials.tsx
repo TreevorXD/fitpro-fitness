@@ -111,7 +111,7 @@ export default function Testimonials() {
                     }}
                     className="text-lg font-semibold font-heading text-foreground mb-4"
                   >
-                    "{t.story}"
+                    &quote;{t.story}&quote;
                   </motion.blockquote>
 
                   <motion.p
