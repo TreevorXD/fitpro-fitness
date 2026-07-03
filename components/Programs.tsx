@@ -10,6 +10,7 @@ export default function Programs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2
+            id="programs"
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -25,8 +26,8 @@ export default function Programs() {
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
             className="text-xl text-muted-foreground max-w-2xl mx-auto"
           >
-            Choose from our comprehensive fitness programs designed to meet your
-            specific goals and fitness level.
+            Choose from our programs designed to meet your
+            specific goals.
           </motion.p>
         </div>
 

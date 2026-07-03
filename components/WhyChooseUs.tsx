@@ -3,30 +3,30 @@ import * as motion from "motion/react-client";
 
 export default function WhyChooseUs() {
   const features = [
-    {
-      icon: CheckCircle,
-      title: "Certified Professional Trainers",
-      description:
-        "Work with certified fitness professionals who have years of experience and expertise.",
-    },
-    {
-      icon: TrendingUp,
-      title: "Personalized Workout & Diet Plans",
-      description:
-        "Get customized plans tailored to your specific goals, fitness level, and preferences.",
-    },
-    {
-      icon: Calendar,
-      title: "Flexible Schedules",
-      description:
-        "Choose from online and offline sessions that fit your busy lifestyle and schedule.",
-    },
-    {
-      icon: Users,
-      title: "Community Support & Progress Tracking",
-      description:
-        "Join a supportive community and track your progress with our advanced monitoring tools.",
-    },
+{
+  icon: CheckCircle,
+  title: "Certified Coaches & Referees",
+  description:
+    "Train under certified water polo coaches with years of competitive coaching and playing experience.",
+},
+{
+  icon: TrendingUp,
+  title: "Personalized Skill & Conditioning Plans",
+  description:
+    "Get tailored training plans covering technique, swimming conditioning, and game strategy suited to your level.",
+},
+{
+  icon: Calendar,
+  title: "Flexible Training Sessions",
+  description:
+    "Choose from pool sessions and dryland training times that fit around school, work, and match schedules.",
+},
+{
+  icon: Users,
+  title: "Team Spirit & Progress Tracking",
+  description:
+    "Join a tight-knit team community and track your skill development, fitness, and match performance over time.",
+},
   ];
 
   return (
@@ -34,13 +34,14 @@ export default function WhyChooseUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2
+            id="why-choose-us"
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground"
           >
-            Why Choose <span className="text-primary">FitPro</span> Fitness?
+            Why Choose <span className="text-primary"></span> Waterpolo?
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 12 }}
@@ -49,8 +50,7 @@ export default function WhyChooseUs() {
             transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
             className="text-xl text-muted-foreground max-w-2xl mx-auto"
           >
-            We provide everything you need to succeed on your fitness journey
-            with proven methods and expert support.
+            We provide everything you need to succeed on your water polo journey.
           </motion.p>
         </div>
 

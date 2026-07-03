@@ -12,7 +12,7 @@ export default function Navbar() {
           {/* Logo */}
           <div>
             <h1 className="text-2xl font-black font-heading text-primary">
-              FitPro
+              Victoria Water Polo Club
             </h1>
           </div>
 

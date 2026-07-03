@@ -1,14 +1,15 @@
 import * as motion from "motion/react-client";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <section className="h-screen relative flex items-center justify-center overflow-hidden pt-16">
       <div className="absolute inset-0">
         <Image
-          src="/fitness-hero.jpeg"
-          alt="Fitness Background"
+          src="/pool.jpg"
+          alt="Pool Background"
           fill
           className="object-cover object-center"
         />
@@ -23,8 +24,8 @@ export default function Hero() {
             transition={{ duration: 0.7, ease: "easeInOut" }}
             className="text-5xl md:text-7xl font-black font-heading mb-6 leading-tighter"
           >
-            Transform Your Body,{" "}
-            <span className="text-primary">Transform Your Life</span>
+            Victoria {" "}
+            <span className="text-primary">Water Polo Club</span>
           </motion.h1>
 
           <motion.p
@@ -33,8 +34,7 @@ export default function Hero() {
             transition={{ delay: 0.3, duration: 0.7 }}
             className="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto"
           >
-            Join our fitness programs and achieve your goals with expert
-            trainers and personalized plans.
+            Join our adult water polo club and experience the thrill of competitive water polo.
           </motion.p>
 
           <motion.div
@@ -47,14 +47,16 @@ export default function Hero() {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8"
             >
-              Start Free Trial
+              Learn More
             </Button>
             <Button
+              href="#contact-info"
               size="lg"
               variant="outline"
-              className="bg-transparent text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8"
-            >
-              View Plans
+              className="bg-transparent text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8">
+              <Link href="#contact-info">
+                Contact Us
+              </Link>
             </Button>
           </motion.div>
         </div>

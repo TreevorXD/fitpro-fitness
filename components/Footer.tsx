@@ -9,11 +9,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-3xl font-black font-heading text-primary mb-4">
-              FitPro Fitness
+              Victoria Water Polo Club
             </h3>
             <p className="mb-6 leading-relaxed max-w-md">
-              Transform your life with our comprehensive fitness programs,
-              expert trainers, and supportive community.
+              Transform your life with our comprehensive water polo programs,
+              expert coaches, and supportive community.
             </p>
 
             <div className="flex space-x-4">
@@ -60,28 +60,28 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-bold font-heading mb-4">
+            <h4 id="contact-info" className="text-lg font-bold font-heading mb-4">
               Contact Info
             </h4>
             <div className="space-y-3">
               <p>
                 <strong>Phone:</strong>
                 <br />
-                (555) 123-4567
+                (250) 818-2999
               </p>
 
               <p>
                 <strong>Email:</strong>
                 <br />
-                info@fitprofitness.example
+                southislandwpa@gmail.com
               </p>
 
               <p>
                 <strong>Location:</strong>
                 <br />
-                123 Fitness Ave
+                4636 Elk Lake Dr
                 <br />
-                Healthy City, HC 12345
+                 Victoria, BC V8Z 5M1
               </p>
             </div>
           </div>
@@ -89,8 +89,7 @@ export default function Footer() {
 
         <div className="border-t border-secondary/40 pt-20 text-center text-neutral-400">
           <p>
-            © 2025 FitPro Fitness. All rights reserved. Transform your body,
-            transform your life.
+            © 2025 Victoria Water Polo Club. All rights reserved.
           </p>
         </div>
       </div>

@@ -14,9 +14,9 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "FitPro Fitness - Transform Your Body, Transform Your Life",
+  title: "Victoria Water Polo Club",
   description:
-    "Join our fitness programs and achieve your goals with expert trainers and personalized plans. Start your transformation today.",
+    "Join our adult water polo club and experience the thrill of competitive water polo. Our team welcomes players of all skill levels, from beginners to seasoned athletes. Dive into the action and be part of a supportive community that shares your passion for the sport.",
 };
 
 export default function RootLayout({
