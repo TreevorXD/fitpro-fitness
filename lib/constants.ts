@@ -16,6 +16,6 @@ export const programs = [
     title: "Monday Night Practice's",
     description:
       "Join us for our weekly Monday night practice sessions.",
-    image: "/water-polo.jpg",
+    image: "/pool.jpg",
   },
 ];
