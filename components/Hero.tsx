@@ -47,7 +47,7 @@ export default function Hero() {
               size="lg"
               className="bg-primary hover:bg-primary/90 text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8"
             >
-              <Link href="#why-choose-us">
+              <Link href="/">
                 Learn More
               </Link>
             </Button>
@@ -55,7 +55,7 @@ export default function Hero() {
               size="lg"
               variant="outline"
               className="bg-transparent text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8">
-              <Link href="#contact-info">
+              <Link href="/contact">
                 Contact Us
               </Link>
             </Button>

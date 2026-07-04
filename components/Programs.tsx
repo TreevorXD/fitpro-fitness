@@ -3,6 +3,7 @@ import * as motion from "motion/react-client";
 import { Card, CardContent } from "./ui/card";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import Link from "next/link";
 
 export default function Programs() {
   return (
@@ -10,7 +11,6 @@ export default function Programs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2
-            id="programs"
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -33,7 +33,7 @@ export default function Programs() {
 
         {/* Cards */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,280px))] justify-center gap-8">
           {programs.map((program, index) => (
             <motion.div
               initial={{ opacity: 0, y: 24 }}
@@ -91,7 +91,9 @@ export default function Programs() {
                       variant="outline"
                       className="w-full transition-colors duration-300 group-hover:bg-primary dark:group-hover:bg-primary group-hover:text-primary-foreground"
                     >
-                      Learn more
+                      <Link href="/register" className="w-full h-full">
+                        Register Now
+                      </Link>
                     </Button>
                   </div>
                 </CardContent>

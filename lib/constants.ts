@@ -1,21 +1,21 @@
 export const navItems = [
-  { name: "Home", href: "#" },
-  { name: "Programs", href: "#programs" },
-  { name: "About", href: "#why-choose-us" },
-  { name: "Contact", href: "#contact-info" },
+  { name: "Home", href: "/" },
+  { name: "Information", href: "/information" },
+  { name: "Register", href: "/register" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export const programs = [
   {
     title: "Adult Night League",
     description:
-      "Join our adult night league and experience the thrill of competitive water polo.",
+      "Join our competitive adult night league scrimmages and experience the thrill of competitive water polo.",
     image: "/pool.jpg",
   },
-    {
-    title: "Monday Night Practice's",
+  {
+    title: "Fitness & Conditioning",
     description:
-      "Join us for our weekly Monday night practice sessions.",
+      "Improve your strength and endurance with our fitness and conditioning programs.",
     image: "/pool.jpg",
   },
 ];
