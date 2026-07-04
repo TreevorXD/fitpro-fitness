@@ -23,7 +23,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>) {1
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${oswald.variable} antialiased`}>
