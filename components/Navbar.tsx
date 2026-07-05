@@ -3,13 +3,13 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import ThemeToggle from "./ThemeToggle";
 import MobileNavigation from "./MobileNavigation";
-
+import Image from "next/image";
 export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+         <Image src="/VWPC.png" alt="Victoria Water Polo Club Logo" width={40} height={40} className="mr-2" />
           <div>
             <h1 className="text-2xl font-black font-heading text-primary">
               Victoria Water Polo Club

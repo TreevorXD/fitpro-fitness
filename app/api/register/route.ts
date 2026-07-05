@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
 
     const { data, error } = await resend.emails.send({
       from: 'Registration <noreply@notifications.victoriawaterpolo.ca>',
-      to: ['contactform+southislandwpa@gmail.com'],
+      to: ['southislandwpa@gmail.com'],
       replyTo: contact.email,
       subject: `New Registration: ${contact.fullName}`,
       react: RegistrationEmailTemplate(body),

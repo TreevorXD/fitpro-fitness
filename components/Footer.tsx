@@ -18,18 +18,21 @@ export default function Footer() {
 
             <div className="flex space-x-4">
               <Link
-                href="/"
+                target="_blank"
+                href="https://www.instagram.com/victoriawaterpoloclub/"
                 className="w-10 h-10 bg-secondary/40 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300"
               >
                 <Instagram className="w-5 h-5" />
               </Link>
               <Link
-                href="/"
+                target="_blank"
+                href=""
                 className="w-10 h-10 bg-secondary/40 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300"
               >
                 <Youtube className="w-5 h-5" />
               </Link>
               <Link
+                target="_blank"
                 href="/"
                 className="w-10 h-10 bg-secondary/40 rounded-full flex items-center justify-center hover:bg-primary transition-colors duration-300"
               >
@@ -89,7 +92,7 @@ export default function Footer() {
 
         <div className="border-t border-secondary/40 pt-20 text-center text-neutral-400">
           <p>
-            © 2025 Victoria Water Polo Club. All rights reserved.
+            © 2026 Victoria Water Polo Club. All rights reserved.
           </p>
         </div>
       </div>
