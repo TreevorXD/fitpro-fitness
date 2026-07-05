@@ -46,11 +46,11 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-bold font-heading mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              {["Home", "Register", "Contact"].map(
+              {["Home", "Information ", "Calendar", "Register", "Contact"].map(
                 (link) => (
                   <li key={link}>
                     <Link
-                      href="#"
+                      href={link === "Home" ? "/" : `/${link.toLowerCase()}`}
                       className="hover:text-primary transition-colors duration-300"
                     >
                       {link}
@@ -76,7 +76,7 @@ export default function Footer() {
               <p>
                 <strong>Email:</strong>
                 <br />
-                southislandwpa@gmail.com
+                contact@victoriawaterpolo.ca
               </p>
 
               <p>

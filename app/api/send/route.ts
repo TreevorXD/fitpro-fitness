@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
 
     const { data, error } = await resend.emails.send({
       from: 'Form <noreply@notifications.victoriawaterpolo.ca>',
-      to: ['southislandwpa@gmail.com'],
+      to: ['contact@victoriawaterpolo.ca'],
       replyTo: email,
       subject: `New contact form submission from ${name}`,
       react: EmailTemplate({ name, email, message }),
