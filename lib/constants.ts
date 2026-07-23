@@ -13,10 +13,4 @@ export const programs = [
       "Join our competitive adult night league scrimmages and experience the thrill of competitive water polo.",
     image: "/pool.jpg",
   },
-  {
-    title: "Fitness & Conditioning",
-    description:
-      "Improve your strength and endurance with our fitness and conditioning programs.",
-    image: "/pool.jpg",
-  },
 ];
