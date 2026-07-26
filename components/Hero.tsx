@@ -18,6 +18,13 @@ export default function Hero() {
 
       <div className="relative z-10 text-white text-center px-4 max-w-4xl">
         <div>
+          <Image
+            src="/Logo.png"
+            alt="Club Logo"
+            width={350}
+            height={350}
+            className="mx-auto mb-6"
+          />
           <motion.h1
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
